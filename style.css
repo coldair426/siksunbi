@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+}
+
+.wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.header {
+  flex: auto;
+}
+
+.logo {
+  width: 40%;
+  height: 40%;
+}
+
+.key {
+}
+
+.go {
+}
