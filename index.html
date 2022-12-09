@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SIKSUNBI</title>
     <link rel="stylesheet" href="./style.css" />
+    <script
+      type="text/javascript"
+      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=90357c8834c7fdea4515560b951f5e0b"
+    ></script>
   </head>
+
   <body>
     <div class="header">
       <h1>
@@ -21,7 +26,10 @@
         <div class="">춘천날씨(기온,온습도,미세먼지)</div>
         이기 때문에 무엇을 추천한다.
       </div>
-      <div class="ct2">음식점 장소. 카카오맵등</div>
+      <div class="ct2">
+        <div id="map"></div>
+        <button id="findWay">길안내</button>
+      </div>
     </div>
     <script src="./main.js"></script>
   </body>
